@@ -1,0 +1,111 @@
+.contact {
+  padding: 100px 40px;
+  border-top: 0.5px solid #ffffff10;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.contact-desc {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.contact-email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #7F77DD;
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 32px;
+  transition: opacity 0.2s;
+}
+
+.contact-email:hover { opacity: 0.7; }
+
+.contact-socials {
+  display: flex;
+  gap: 12px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 0.5px solid #222;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.social-btn:hover {
+  transform: translateY(-3px);
+  border-color: #444;
+}
+
+.github  { color: #fff; background: #1a1a1a; }
+.linkedin { color: #0A66C2; background: #0A66C210; border-color: #0A66C230; }
+.whatsapp { color: #25D366; background: #25D36610; border-color: #25D36630; }
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.contact-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #7F77DD;
+  color: #fff;
+  padding: 32px 28px;
+  border-radius: 16px;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.contact-cta:hover {
+  opacity: 0.9;
+  transform: translateY(-3px);
+}
+
+.cta-label {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.cta-arrow {
+  font-size: 28px;
+}
+
+.contact-cv {
+  width: 100%;
+  text-align: center;
+  border: 0.5px solid #333;
+  color: #aaa;
+  padding: 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.contact-cv:hover {
+  border-color: #fff;
+  color: #fff;
+}
